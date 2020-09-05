@@ -1,9 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>what_am_i_eating</RootNamespace>
+    <UserSecretsId>83349b5a-4989-4b43-ac47-06c09f7c8f13</UserSecretsId>
   </PropertyGroup>
-
-
+  <ItemGroup>
+    <PackageReference Include="IBM.Cloud.SDK.Core" Version="1.1.0" />
+    <PackageReference Include="IBM.Watson.VisualRecognition.v3" Version="4.6.0" />
+  </ItemGroup>
 </Project>
