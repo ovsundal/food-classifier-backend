@@ -8,5 +8,6 @@
   <ItemGroup>
     <PackageReference Include="IBM.Cloud.SDK.Core" Version="1.1.0" />
     <PackageReference Include="IBM.Watson.VisualRecognition.v3" Version="4.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
   </ItemGroup>
 </Project>
